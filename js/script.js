@@ -5,12 +5,14 @@ function enterMyPage()
     
     if ($name ==""  || $password=="")
     {
-        alert("enter all data")
+        alert("enter all data");
     }
     if ($name == "marwa" && $password=="123")
     {
         alert("succsess");
-         window.location.replace("mypage.html");
+        // window.location.replace("mypage.html");
+         //window.location.href = "mypage.html"; 
+         window.location.assign("mypage.html");
        
     }
     else
