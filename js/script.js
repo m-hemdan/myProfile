@@ -11,8 +11,8 @@ function enterMyPage()
     {
         alert("succsess");
         // window.location.replace("mypage.html");
-         //window.location.href = "mypage.html"; 
-         window.location.assign("mypage.html");
+         window.location.href = "mypage.html"; 
+        // window.location.assign("mypage.html");
        
     }
     else
